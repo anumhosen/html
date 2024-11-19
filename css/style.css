@@ -1,0 +1,8 @@
+.btn-class {
+    border: 1px solid black;
+    width: 100px;
+    height: 50px;
+    background-color: aquamarine;
+    font-size: 12px;
+    border-radius: 5px;
+}
