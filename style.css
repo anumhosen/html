@@ -5,13 +5,86 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+button{
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 13px;
+    padding: 5px 15px;
+}
+.table{
+    border: 1px solid coral;
+    border-radius: 13px;
+    overflow: hidden;
+}
+table{
+    width: 100%;
+}
 table,
 th,
 td{
-    border: 1px solid black;
     border-collapse: collapse;
     padding: 5px 10px;
+    text-align: center;
 }
+td,th{
+    border: 1px solid brown;
+}
+td:first-child,
+th:first-child{
+    border-left: none;
+}
+td:last-child,
+th:last-child{
+    border-right: none;
+}
+tr:first-child th{
+    border-top: none;
+}
+tr:last-child td{
+    border-bottom: none;
+}
+tr:nth-child(even){
+    background-color: coral;
+}
+
 iframe{
     display: none;
+}
+.pragraph{
+    background-color: #7ab2df;
+    padding: 10px;
+    border-radius: 13px;
+}
+.dual{
+    color: black;
+    display: flex;
+    background-image: url("./img/image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    border-radius: 13px;
+    margin-bottom: 20px;
+}
+.dual div{
+    width: 50%;
+}
+.dual div:first-child{
+    position: relative;
+    left: 50px;
+}
+.background{
+    /* background-color: chartreuse; */
+    background-image: url("./img/image.jpg");
+    background-size: cover;
+    border-radius: 13px;
+}
+.background h1{
+    background-color: teal;
+    padding: 5px 20px;
+    border-radius:  13px 13px 0 0;
+}
+.background p{
+    padding: 10px 20px;
+    text-align: justify;
 }
